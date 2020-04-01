@@ -18,6 +18,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxyPlot.WindowsForms", "Ext
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureNotifier", "TemperatureNotifier\TemperatureNotifier.csproj", "{1A54BD27-EE67-4BA7-9162-0506FD4971E4}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TempNotifierSetup", "Setup\Setup.vdproj", "{7DA8E0A2-5EE2-4C55-94E0-2F5F154C6FBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,6 +50,10 @@ Global
 		{1A54BD27-EE67-4BA7-9162-0506FD4971E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A54BD27-EE67-4BA7-9162-0506FD4971E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A54BD27-EE67-4BA7-9162-0506FD4971E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DA8E0A2-5EE2-4C55-94E0-2F5F154C6FBC}.Debug|Any CPU.ActiveCfg = Debug
+		{7DA8E0A2-5EE2-4C55-94E0-2F5F154C6FBC}.Debug|Any CPU.Build.0 = Debug
+		{7DA8E0A2-5EE2-4C55-94E0-2F5F154C6FBC}.Release|Any CPU.ActiveCfg = Release
+		{7DA8E0A2-5EE2-4C55-94E0-2F5F154C6FBC}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

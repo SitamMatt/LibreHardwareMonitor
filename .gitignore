@@ -4,3 +4,5 @@ Bin/
 Obj/
 .vs/
 packages/
+/Setup/Debug
+/Setup/Release
