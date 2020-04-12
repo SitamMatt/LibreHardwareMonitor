@@ -44,14 +44,14 @@ namespace TemperatureNotifier
                 MeasuredProperties.AddRange(
                     hardware.Sensors
                     .Where(sensor => MeasuredPropertiesFields.Any(x=>x.Key==sensor.Name && x.Value == sensor.SensorType) )
-                    .Select(selected => new Measurement(selected.Name, toSensorTypeName(selected.SensorType), selected.Value))
+                    .Select(selected => new Measurement(selected.Name, ToSensorTypeName(selected.SensorType), selected.Value))
                 );
 
             }
             return MeasuredProperties;
         }
 
-        private string toSensorTypeName(SensorType sensor)
+        private string ToSensorTypeName(SensorType sensor)
         {
             switch (sensor)
             {

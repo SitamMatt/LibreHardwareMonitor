@@ -93,7 +93,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="TemperatureGraph.cs" />
     <Compile Include="Measure.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="StartupManager.cs" />
     <Compile Include="TemperatureTray.cs" />
     <Compile Include="ToastFacade.cs" />
@@ -151,6 +153,11 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main.py">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
